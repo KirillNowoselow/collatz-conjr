@@ -6,4 +6,3 @@ def x2(x):
 def x3_1(x):
     x = x*3+1
     return collatz(x)
-
