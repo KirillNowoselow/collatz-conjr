@@ -3,7 +3,7 @@ def input_f():
     while True:
         x = int(input('Введите натуральное число:'))
         if x > 0:
-            return x
+            return collatz(x)
 
 
 def x2(num):
@@ -15,7 +15,7 @@ def x3_1(a):
 
 
 def collatz(x):
-    nums = []
+    nums = [x]
     if x == 1:
         pass
     elif x % 2 == 0:
@@ -25,4 +25,4 @@ def collatz(x):
     return nums
 
 
-print(collatz(input_f()))
+print(collatz(x))
