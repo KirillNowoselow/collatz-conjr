@@ -12,7 +12,7 @@ def x2(n):
 
   
 def x3_1():
-  #кириллу
-
+    x = x*3+1
+    return collatz(x)
   
 def collatz():
