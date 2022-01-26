@@ -6,8 +6,9 @@ def inputt():
         print('Неверные данные')
     return n
 
-def x2():
-  #егору
+def x2(n):
+    return collatz(x//2)
+
 
   
 def x3_1():
